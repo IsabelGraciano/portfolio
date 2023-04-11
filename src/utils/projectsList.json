@@ -1,0 +1,14 @@
+{
+    "our weather": {
+        "images": ["src:/", "src:/", "src:/"],
+        "description": "description here",
+        "project-link": "deployed link",
+        "github-link": "deployed link"
+    },
+    "platzi coins": {
+        "images": ["src:/", "src:/", "src:/"],
+        "description": "description here",
+        "project-link": "deployed link",
+        "github-link": "deployed link"
+    }
+}
