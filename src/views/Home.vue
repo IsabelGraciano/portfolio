@@ -1,10 +1,9 @@
 <template>
   <div class="home">
-    <Navbar/>
+    <Navbar :home="Home" :experience="Experience"/>
     <MainInfo/>
-    <About/>
-    <Experience/>
     <Projects/>
+    <Experience/>
   </div>
 </template>
 
@@ -12,13 +11,12 @@
 import { Options, Vue } from 'vue-class-component'
 import Navbar from '../components/Navbar.vue'
 import MainInfo from '../components/MainInfo.vue'
-import About from '../components/About.vue'
 import Experience from '../components/Experience.vue'
 import Projects from '../components/Projects.vue'
 
 @Options({
   components: {
-    Navbar, MainInfo, About, Experience, Projects
+    Navbar, MainInfo, Experience, Projects
   }
 })
 export default class Home extends Vue {}
