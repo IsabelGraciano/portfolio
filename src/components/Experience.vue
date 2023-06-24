@@ -35,6 +35,7 @@
 </template>
 
 <style lang="scss" scoped>
+@import "@/assets/global-styles.scss";
 
 .experience{
   padding-top: 40px;
@@ -46,7 +47,7 @@
 
 .experience_information {
   text-align: justify;
-  border-left: solid 1px black;
+  border-left: solid 2px $dark-green;
   padding-left: 15px;
   margin-left: 20%;
   margin-right: 20%;

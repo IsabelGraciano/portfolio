@@ -3,8 +3,8 @@
     <nav class="navbar">
       <a class="navbar_link" href="`#${Home}`">Home</a>
       <a class="navbar_link" href="`#${About}`">About me</a>
-      <a class="navbar_link" href="`#${Experience}`">Experience</a>
       <a class="navbar_link" href="`#${Projects}`">Projects</a>
+      <a class="navbar_link" href="`#${Experience}`">Experience</a>
       <a class="navbar_link" href="`#${Contact}`">Contact me</a>
     </nav>
   </div>
@@ -41,7 +41,7 @@ export default defineComponent({
   width: 50%;
   justify-content: space-around;
   float: right;
-  border-bottom: solid 1px black;
+  border-bottom: solid 1px $dark-green;
 }
 
 .navbar_link {
@@ -50,8 +50,8 @@ export default defineComponent({
   padding: 5px;
 
   &:hover {
-    background-color: $gray;
-    border-radius: 50%;
+    background-color: $dark-green;
+    border-radius: 10%;
   }
 }
 
